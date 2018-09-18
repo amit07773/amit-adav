@@ -631,6 +631,9 @@ display: none !important;
     .credit {
         display: none;
     }
+    .typezone{
+        position: fixed!important;
+    }
     .tab{
         height: 100% !important;
     }
