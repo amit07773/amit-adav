@@ -622,11 +622,17 @@ display: none !important;
      .container .tab{
         width: auto;
         box-shadow: none;
-        border: 20px solid #000;
-        border-top: 50px solid #000;
+        border: 0px solid #000;
+        border-top: 0px solid #000;
     }
     .speaker {
-        top: 18px;
+        display: none;
+    }
+    .credit {
+        display: none;
+    }
+    .tab{
+        height: 100% !important;
     }
     .chat{
             margin-top: 20px;
@@ -638,6 +644,8 @@ display: none !important;
         width: 76%;
     }
     .actived{
-            height: 390px;
+    height: 410px;
+    width: 96%;
+    left: 0px;
     }
 }
